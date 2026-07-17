@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Basic HTML</title>
+</head>
+
+<body>
+
+    <h1>Welcome to My HTML Page</h1>
+
+    <h2>Text Formatting</h2>
+
+    <p>
+        This is <b>bold</b> text. <br>
+        This is <strong>important</strong> text. <br>
+        This is <i>italic</i> text. <br>
+        This is <em>emphasized</em> text. <br>
+        This is <u>underlined</u> text. <br>
+        This is <mark>highlighted</mark> text. <br>
+        This is <small>smaller</small> text. <br>
+        Water formula: H<sub>2</sub>O <br>
+        Einstein's formula: E = mc<sup>2</sup> <br>
+
+        Code:
+        <code>
+            &lt;h5&gt;Hi, this is written in "code" tag.&lt;/h5&gt;
+        </code>
+    </p>
+
+    <h1>HTML Lists with Different Types</h1>
+
+    <h2>Unordered Lists</h2>
+
+    <h3>Default (disc)</h3>
+    <ul type="disc">
+        <li>Apple</li>
+        <li>Banana</li>
+        <li>Cherry</li>
+    </ul>
+
+    <h3>Circle</h3>
+    <ul type="circle">
+        <li>Dog</li>
+        <li>Cat</li>
+        <li>Rabbit</li>
+    </ul>
+
+    <h3>Square</h3>
+    <ul type="square">
+        <li>Red</li>
+        <li>Green</li>
+        <li>Blue</li>
+    </ul>
+
+    <h2>Ordered Lists</h2>
+
+    <h3>Numbers (1,2,3...)</h3>
+    <ol type="1">
+        <li>Python</li>
+        <li>Java</li>
+        <li>PHP</li>
+    </ol>
+
+    <h3>Uppercase Letters (A,B,C...)</h3>
+    <ol type="A">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ol>
+
+    <h3>Lowercase Letters (a,b,c...)</h3>
+    <ol type="a">
+        <li>C++</li>
+        <li>C#</li>
+        <li>C</li>
+    </ol>
+
+    <h3>Uppercase Roman (I,II,III...)</h3>
+    <ol type="I">
+        <li>MySQL</li>
+        <li>MongoDB</li>
+        <li>Firebase</li>
+    </ol>
+
+    <h3>Lowercase Roman (i,ii,iii...)</h3>
+    <ol type="i">
+        <li>Dart</li>
+        <li>R</li>
+        <li>Kotlin</li>
+    </ol>
+
+    <hr>
+
+    <h1 align="center">Welcome to My Webpage</h1>
+
+    <h3>
+        Below I have used anchor tag "a" for hyperlink. After clicking on the
+        link you will be redirected to the Wikipedia page.
+    </h3>
+
+    <a href="https://www.wikipedia.org" target="_blank">
+        Wikipedia
+    </a>
+
+    <h2>Images</h2>
+
+    <p>Here are some images from the web:</p>
+
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg"
+         alt="HTML5 Logo"
+         width="200">
+
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
+         alt="JavaScript Logo"
+         width="200">
+
+    <h2>Programming Languages Table</h2>
+
+    <table border="1" cellpadding="8" cellspacing="0">
+
+        <tr>
+            <th>Language</th>
+            <th>Type</th>
+            <th>Website</th>
+        </tr>
+
+        <tr>
+            <td>HTML</td>
+            <td>Markup</td>
+            <td>
+                <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">
+                    Learn HTML
+                </a>
+            </td>
+        </tr>
+
+        <tr>
+            <td>CSS</td>
+            <td>Style Sheet</td>
+            <td>
+                <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">
+                    Learn CSS
+                </a>
+            </td>
+        </tr>
+
+        <tr>
+            <td>JavaScript</td>
+            <td>Programming</td>
+            <td>
+                <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
+                    Learn JS
+                </a>
+            </td>
+        </tr>
+
+    </table>
+
+</body>
+</html>
