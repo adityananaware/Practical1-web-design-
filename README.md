@@ -1,129 +1,266 @@
-# 🌐 Web Design and Development Lab – B.Sc. IT (Second Year)
+# 🌐 Web Design and Development Laboratory
 
-## 📘 About
-
-This repository contains all practical programs for the **Web Design and Development Laboratory** of **B.Sc. Information Technology (Second Year)**. The practicals are implemented using **HTML5, CSS3, JavaScript, and Bootstrap** according to the university syllabus.
-
-Each practical includes clean source code with proper formatting to help students understand web development concepts easily.
+A complete collection of **Web Design and Development** practical programs for **B.Sc. Information Technology (Second Year)**. This repository follows the prescribed practical syllabus and contains well-structured source code, outputs, and examples to help students understand both client-side and server-side web development.
 
 ---
 
-## 🎯 Objectives
+## 📚 Course Information
 
-- Learn the fundamentals of web development.
-- Design responsive web pages.
-- Understand HTML5 semantic elements.
-- Apply CSS for styling and layouts.
-- Add interactivity using JavaScript.
-- Develop responsive websites using Bootstrap.
-- Gain practical experience through hands-on exercises.
+- **Course:** Web Design and Development Laboratory
+- **Program:** B.Sc. Information Technology (Second Year)
+- **Language/Technologies:** HTML5, CSS3, PHP, MySQL
+- **IDE:** Visual Studio Code
+- **Server:** XAMPP / WAMP
+- **Database:** MySQL
 
 ---
 
-## 💻 Technologies Used
+# 📖 Practicals Included
+
+## Practical 1 – Basic HTML
+
+### Aim
+- Create a simple web page using HTML.
+- Use headings, paragraphs, text formatting, lists, tables, hyperlinks, and images.
+
+### Topics Covered
+- HTML Structure
+- Text Formatting
+- Lists
+- Hyperlinks
+- Images
+- Tables
+
+---
+
+## Practical 2 – HTML Forms & Multimedia
+
+### Aim
+- Create a Contact Form using HTML.
+- Embed Audio and Video using HTML5.
+
+### Topics Covered
+- Forms
+- Input Controls
+- Radio Buttons
+- Checkboxes
+- Textarea
+- File Upload
+- Audio
+- Video
+
+---
+
+## Practical 3 – CSS
+
+### Aim
+- Apply Inline, Internal and External CSS.
+- Create layouts using CSS Positioning and Box Model.
+- Design a Multi-page Website.
+
+### Topics Covered
+- CSS Selectors
+- Box Model
+- Positioning
+- Navigation Bar
+- Layout Design
+
+---
+
+## Practical 4 – JavaScript
+
+### Aim
+- Create interactive web pages using JavaScript.
+
+### Topics Covered
+- Variables
+- Operators
+- Loops
+- Conditional Statements
+- Functions
+- DOM Manipulation
+- Events
+
+---
+
+## Practical 5 – PHP Basics
+
+### Aim
+- Display dynamic content using variables and control structures.
+- Retrieve form data using GET and POST methods.
+
+### Topics Covered
+- PHP Syntax
+- Variables
+- if-else
+- switch
+- Loops
+- GET Method
+- POST Method
+
+---
+
+## Practical 6 – PHP Arrays & Functions
+
+### Aim
+- Store and retrieve data using Arrays.
+- Create User-defined Functions.
+
+### Topics Covered
+- Indexed Arrays
+- Associative Arrays
+- foreach Loop
+- Functions
+- Function Parameters
+- Return Values
+
+---
+
+## Practical 7 – File Handling
+
+### Aim
+- Perform file operations using PHP.
+
+### Topics Covered
+- Create Files
+- Read Files
+- Write Files
+- Append Data
+- File Handling Functions
+
+---
+
+## Practical 8 – PHP & MySQL Database Connection
+
+### Aim
+- Connect PHP with MySQL.
+- Display records from the database.
+
+### Topics Covered
+- mysqli_connect()
+- Database Connection
+- SELECT Query
+- HTML Table Display
+
+---
+
+## Practical 9 – CRUD Operations
+
+### Aim
+- Insert records into MySQL.
+- Update existing records.
+- Delete records.
+
+### Topics Covered
+- INSERT
+- UPDATE
+- DELETE
+- HTML Forms
+- PHP + MySQL
+
+---
+
+## Practical 10 – Login System
+
+### Aim
+- Build a Login System using PHP & MySQL.
+
+### Topics Covered
+- User Authentication
+- Sessions
+- Cookies
+- Login
+- Logout
+- Remember Me
+
+---
+
+# 💻 Technologies Used
 
 - HTML5
 - CSS3
-- JavaScript (ES6)
-- Bootstrap 5
+- JavaScript
+- PHP
+- MySQL
+- XAMPP
+- WAMP
 - Visual Studio Code
 
 ---
 
-## 📂 Practicals Included
+# 📂 Repository Structure
 
-### Practical 1 – Basic HTML
-Create a simple HTML webpage using headings, paragraphs, lists, hyperlinks, images, and tables.
-
-### Practical 2 – HTML Forms, Audio & Video
-Design a contact form using HTML form controls and embed audio and video using HTML5 multimedia tags.
-
-### Practical 3 – HTML5 Semantic Elements
-Create webpages using semantic tags like `<header>`, `<nav>`, `<section>`, `<article>`, `<aside>`, and `<footer>`.
-
-### Practical 4 – CSS Basics
-Apply Inline, Internal, and External CSS to style webpages.
-
-### Practical 5 – CSS Box Model & Positioning
-Demonstrate margin, padding, borders, display properties, and CSS positioning.
-
-### Practical 6 – CSS Flexbox & Grid
-Create responsive page layouts using Flexbox and CSS Grid.
-
-### Practical 7 – Responsive Web Design
-Develop responsive webpages using media queries.
-
-### Practical 8 – JavaScript Basics
-Implement variables, operators, loops, conditional statements, and functions.
-
-### Practical 9 – DOM Manipulation
-Manipulate HTML elements dynamically using JavaScript DOM methods and events.
-
-### Practical 10 – Form Validation
-Validate user input using JavaScript before form submission.
-
-### Practical 11 – Bootstrap Components
-Build responsive webpages using Bootstrap containers, grids, cards, forms, navigation bars, and buttons.
-
-### Practical 12 – Mini Website Project
-Develop a responsive website by integrating HTML, CSS, JavaScript, and Bootstrap concepts.
-
----
-
-## 📁 Repository Structure
-
-```text
-Web-Design-and-Development-Lab/
+```
+Web-Design-and-Development-Lab
 │
-├── Practical-01/
-├── Practical-02/
-├── Practical-03/
-├── Practical-04/
-├── Practical-05/
-├── Practical-06/
-├── Practical-07/
-├── Practical-08/
-├── Practical-09/
-├── Practical-10/
-├── Practical-11/
-├── Practical-12/
+├── Practical-01
+├── Practical-02
+├── Practical-03
+├── Practical-04
+├── Practical-05
+├── Practical-06
+├── Practical-07
+├── Practical-08
+├── Practical-09
+├── Practical-10
 │
-└── README.md
+├── README.md
+└── LICENSE
 ```
 
 ---
 
-## 🚀 How to Run
+# 🚀 Getting Started
 
-1. Clone the repository.
+1. Clone this repository
 
 ```bash
-git clone https://github.com/yourusername/Web-Design-and-Development-Lab.git
+git clone https://github.com/your-username/Web-Design-and-Development-Lab.git
 ```
 
-2. Open the project in **Visual Studio Code**.
+2. Open the project in **Visual Studio Code**
 
-3. Open any practical folder.
+3. For HTML/CSS/JavaScript practicals:
+   - Open `index.html`
+   - Run using Live Server
 
-4. Run the **index.html** file using your browser or the **Live Server** extension.
+4. For PHP practicals:
+   - Install XAMPP or WAMP
+   - Start Apache & MySQL
+   - Copy project into:
+     - `htdocs` (XAMPP)
+     - `www` (WAMP)
+   - Import the required MySQL database.
+   - Open the project in your browser.
 
 ---
 
-## 🎓 Learning Outcomes
+# 🎯 Learning Outcomes
 
 After completing these practicals, students will be able to:
 
-- Create structured HTML webpages.
-- Design attractive user interfaces using CSS.
-- Build responsive layouts.
-- Add interactivity using JavaScript.
-- Validate HTML forms.
-- Develop responsive websites using Bootstrap.
-- Create complete front-end web applications.
+- Design webpages using HTML5.
+- Style webpages using CSS3.
+- Create responsive layouts.
+- Develop interactive web pages using JavaScript.
+- Build dynamic websites using PHP.
+- Connect PHP applications with MySQL.
+- Perform CRUD operations.
+- Develop authentication systems using Sessions and Cookies.
 
 ---
 
-## 👨‍💻 Author
+# 📌 Requirements
+
+- Visual Studio Code
+- XAMPP / WAMP
+- PHP 8+
+- MySQL
+- Modern Web Browser
+
+---
+
+# 👨‍🏫 Author
 
 **Aditya Nanaware**  
 Assistant Professor  
@@ -131,8 +268,8 @@ Department of Information Technology
 
 ---
 
-## 📄 License
+## ⭐ Support
 
-This repository is created for **educational purposes only**. Students are free to use these practicals for learning and academic practice.
+If this repository helps you in learning Web Design and Development, consider giving it a **⭐ Star** on GitHub.
 
-⭐ If you find this repository helpful, consider giving it a **Star** on GitHub!
+Happy Coding! 🚀
