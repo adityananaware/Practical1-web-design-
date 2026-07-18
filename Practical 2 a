@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Form Example</title>
+</head>
+
+<body bgcolor="pink">
+
+    <form align="center" action="index.html" method="post">
+
+        <h3>Personal Details</h3>
+
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name">
+        <br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password">
+        <br><br>
+
+        <label for="email">E-mail ID:</label>
+        <input type="text" name="email" id="email">
+        <br><br>
+
+        <label for="gender">Gender:</label>
+
+        <input type="radio" name="gender" value="male" id="gender_male">
+        <label for="gender_male">Male</label>
+
+        <input type="radio" name="gender" value="female" id="gender_female">
+        <label for="gender_female">Female</label>
+        <br><br>
+
+        <label for="mobile">Contact:</label>
+        <input type="text" name="mobile" id="mobile">
+        <br><br>
+
+        <label for="age">Age:</label>
+        <input type="number" name="age" id="age">
+        <br><br>
+
+        <h3>Educational Qualification</h3>
+
+        <label for="degree">Degree:</label>
+
+        <select name="degree" id="degree">
+            <option selected>-- Select Group --</option>
+            <option>B.Com</option>
+            <option>B.Sc</option>
+            <option>B.E Computers</option>
+            <option>B.A</option>
+        </select>
+        <br><br>
+
+        <label for="hobby_chess">Hobbies:</label>
+
+        <input type="checkbox" name="hobby" value="chess" id="hobby_chess">
+        <label for="hobby_chess">Playing Chess</label>
+
+        <input type="checkbox" name="hobby" value="reading" id="hobby_reading">
+        <label for="hobby_reading">Reading Books</label>
+        <br><br>
+
+        <label for="address">Address:</label>
+        <textarea name="address" cols="35" rows="5" id="address"></textarea>
+        <br><br>
+
+        <label for="fileField">Attach Resume:</label>
+        <input type="file" name="fileField" id="fileField">
+        <br><br>
+
+        <input type="submit" name="Submit">
+
+    </form>
+
+</body>
+</html>
