@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Audio & Video</title>
+</head>
+
+<body>
+
+    <h1 align="center">Audio and Video with Controls</h1>
+
+    <h2>Audio</h2>
+
+    <audio controls autoplay loop muted preload="auto">
+        <source src="myaudio.mp3" type="audio/mpeg">
+    </audio>
+
+    <h2>Video</h2>
+
+    <video width="480" height="270" controls autoplay loop muted preload="auto">
+        <source src="myvideo.mp4" type="video/mp4">
+    </video>
+
+    <br><br>
+
+    <video width="480" height="270" controls autoplay loop muted preload="auto">
+        <source src="myvideo2.webm" type="video/webm">
+    </video>
+
+</body>
+</html>
