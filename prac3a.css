@@ -1,0 +1,10 @@
+.box1 {
+    color: purple;
+    font-size: 22px;
+    background-color: #e0e0e0;
+    border: 3px dotted blue;
+    padding: 15px;
+    width: 300px;
+    margin: 20px auto;
+    text-align: center;
+}
