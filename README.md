@@ -54,9 +54,9 @@ A complete collection of **Web Design and Development** practical programs for *
 ## Practical 3 – CSS
 
 ### Aim: Create Webpages using CSS
-a.	Working with CSS for styling: Apply inline, internal and external CSS, Style text, backgrounds and borders.
-b.	Building a web page layout using CSS: Use positioning techniques (relative, absolute, fixed) and the box model.
-c.	Designing a multi-page website: use navigation links between pages (e.g., Home, About, Contact)
+- Working with CSS for styling: Apply inline, internal and external CSS, Style text, backgrounds and borders.
+- Building a web page layout using CSS: Use positioning techniques (relative, absolute, fixed) and the box model.
+- 	Designing a multi-page website: use navigation links between pages (e.g., Home, About, Contact)
 
 ### Topics Covered
 - CSS Selectors
