@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background: lightblue;
+    text-align: center;
+    padding: 20px;
+    border-bottom: 3px solid navy;
+}
+
+nav {
+    background: gray;
+    padding: 10px 20px;
+    position: relative;
+    border-bottom: 2px solid #666;
+}
+
+/* Left Navigation Links */
+
+nav a {
+    color: white;
+    margin-right: 15px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 4px;
+    background-color: #555;
+    box-sizing: border-box;
+}
+
+/* Login Button */
+
+#login {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #333;
+    padding: 10px 20px;
+    border-radius: 4px;
+    border: 1px solid #222;
+}
+
+section {
+    display: flex;
+}
+
+aside {
+    width: 25%;
+    background: lightgray;
+    padding: 20px;
+    position: relative;
+    box-sizing: border-box;
+    border-right: 2px solid #ccc;
+}
+
+article {
+    width: 100%;
+    padding: 100px;
+    box-sizing: border-box;
+    background: pink;
+}
+
+footer {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
